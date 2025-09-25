@@ -1,0 +1,32 @@
+html{
+    background-color: rgb(28, 233, 216);
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(110, 6, 6);
+    margin: 100px auto;
+    width: 600px;
+    border: 5px solid black;
+    padding: 0px 20px 20px 20px;
+}
+h1{
+    color: aquamarine;
+    text-shadow: 3px 3px 4px black;
+    font-size: 25px;
+    letter-spacing: 1.1px;
+    word-spacing: 4px;
+    text-align: center;
+}
+img{
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+}
+p,li{
+    font-size: 14px;
+    color: azure;
+}
+a{
+    color: rgb(197, 155, 16);
+    font-weight: bold;
+}
