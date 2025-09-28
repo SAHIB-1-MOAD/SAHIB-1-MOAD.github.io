@@ -1,5 +1,0 @@
-.env
-*.log
-PDFs/
-.gitignore
-test.html

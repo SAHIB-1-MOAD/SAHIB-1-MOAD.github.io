@@ -2,32 +2,60 @@
 <!--Pour priciser la langue par default.-->
 <html lang="fr-FR">
     <head>
-        <!--La nature d'ecriture-->
+        <!--L'encodage-->
         <meta charset="utf-8">
-        <!--Pour dire que ce site utiliser sur tout les machines PC/Telephone/Tablette-->
-        <meta name="viewport" content="width=device-width">
-        <!--Le fichier CSS (lien vers style.css)-->
-        <link rel="stylesheet" href="style.css">  
-        <!--La declaration du fichier JavaScript-->
-        <script async src="scripts/main.js"></script>
-        <!--Le titre de la page-->
-        <title>Premier page</title>
+
+        <!--adaptation aux differents appariels-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Le nom de l'auteur et la description du site web-->
+        <meta name="author" content="SAHIB MOAD">
+        <meta name="description" content="Le 1er site web a creer.">
+
+        <!--Informations pour le partage sur les réseaux sociaux-->
+        <meta property="og:image" content="images/logo_travail.png">
+        <meta property="og:title" content="Permier site web">
+        <meta property="og:description" content="le 1er site web a creer">
+        <meta property="og:type" content="website">
+
+        <!--Les icones aux differents appareils (iPad/iPhone/PC/...)-->
+        <link rel="icon" type="image/jpg" href="images/logo_travail.jpg">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/logo_travail.jpg">
+        <link rel="apple-touch-icon" sizes="167x167" href="images/logo_travail.jpg">
+        <link rel="apple-touch-icon" sizes="152x152" href="images/logo_travail.jpg">
+        <link rel="apple-touch-icon" href="images/logo_travail.jpg">
+
+        <!--Le fichier CSS-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--Le fichier JavaScript-->
+        <script defer src="scripts/main.js"></script>
+
+        <!--Titre de la page-->
+        <title>Permier site web</title>
     </head>
+
     <body>
         <!--un titre dans le contunu de h1 jusqu'a h6.-->
         <h1>Page web</h1>
+
         <!--inserer un image-->
         <img src="images/logo_travail_sons_background.png" alt="logo de la chaine youtube">
+
         <!--Pour ecrire une paragraphe.-->
         <p>les liste en HTML (HyberText mark langauge) :</p>
-        <!--Pour faire un list non ordonne (c'est a dire n'est pas un ordre a l'interieur.)-->
+
+        <!--Pour faire un list non ordonne (c'est a dire il n'y a pas un ordre a l'interieur.)-->
         <ul>
             <li>ul : liste non ordonne.</li>
             <li>ol : liste ordonne.</li>
             <li>dl : nsit hhh hta n9alb db.</li>
         </ul>
+
+        <!--Une paragraphe-->
         <p>alors a l'interieur de html le createur il a la possibilite de faire un lien vers un autre site web ou bien vers ses pages dans le meme site web</p>
-        <p>Exemple pour le lien : click <a href="https://www.youtube.com/watch?v=HpdsR-PkNjY">ici</a> pour voir mon video youtube.</p>
-        <button>Change user</button>
+
+        <!--Une paragraphe avec un lien-->
+        <p>Exemple pour le lien : click <a href="https://www.youtube.com/watch?v=HpdsR-PkNjY" title="La 2eme video youtube." target="_blank">ici</a> pour voir mon video youtube.</p>
     </body>
 </html>
